@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* .about-us {
+    background-color: #f8f9fa;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-us p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+} */
+
+/* .about-us img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 0.5rem;
+} */
+
+.navbar-brand img {
+    max-height: 70px; /* Adjusts the logo height */
+}
+
+@media (max-width: 768px) {
+    .btn-primary {
+        font-size: 0.9rem; /* Adjust button text size on smaller screens */
+    }
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+
+#bannerimg {
+    object-fit: cover; /* Ensures images are cropped correctly */
+    height: 500px; /* Sets a uniform height for carousel images */
+}
+
+@media (max-width: 768px) {
+    #bannerimg {
+        height: 300px; /* Adjust image height for smaller screens */
+    }
+    .carousel-caption {
+        font-size: 0.9rem; /* Smaller text for captions on small screens */
+    }
+}
+
+

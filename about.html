@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+</head>
+
+<body style="background-color: rgb(255, 99, 99);">
+    <header>
+        <nav class="navbar navbar-expand-md sticky-top" style="background-color: rgb(126, 0, 0);">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a href="#intro" class="navbar-brand ms-2">
+                    <img src="creamandcreumbles.png" alt="Logo" height="70" class="d-inline-block align-text-top">
+                </a>
+    
+                <!-- Navbar Toggler -->
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-light">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link text-light">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="food.html" class="nav-link text-light">Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link text-light">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://wa.me/9372657054" target="_blank" class="btn btn-secondary ms-2">Order Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary position-relative ms-2">
+                                <i class="bi bi-cart"></i>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0+ <span class="visually-hidden">cart items</span>
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- <div class="container-fluid image-overlay">
+        <img src="https://cdn.georgeinstitute.org/sites/default/files/styles/width1920_fallback/public/2020-10/world-food-day-2020.png" alt="" width="100%" height="400">
+        <div class="image-overlay">
+            <h4 class="image-overlay">Food</h4>
+        </div>
+    </div><br> -->
+
+
+    <!-- Banner for about us -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="1.png" id="bannerimg" class="d-block w-100" alt="Angel Beats">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-light text-start">About Us</h2>
+                    <hr class="border-light">
+                    <a class="nav-link text-start" href="angel_beats.html">
+                        <button type="button" class="btn btn-light position-relative ">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+           
+        </div>
+        <!-- Controls -->
+    </div>
+    <!-- <div class="carousel-item" data-bs-interval="1000">
+                <img src="2.png" id="bannerimg" alt="..." class="d-block w-100">
+                <div class="carousel-caption">
+                    <h2 class="">Erased</h2>
+                    <hr>
+                    <a class="nav-link" href="Erased.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="3.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">ID INVADED</h2>
+                    <hr>
+                    <a class="nav-link" href="id invaded.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div> -->
+    <!-- <div class="carousel-item" data-bs-interval="1000">
+                <img src="k project/kbanner.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">K Project</h2>
+                    <hr>
+                    <a class="nav-link" href="k project.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="Made In Abyss/MABanner.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">Made In Abyss</h2>
+                    <hr>
+                    <a class="nav-link" href="Made In Abyss.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="No Game No Life/NGNLBanner.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">No Game No Life</h2>
+                    <hr>
+                    <a class="nav-link" href="No Game No Life.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="Terror In Resonance/TRBanner.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">Terror In Resonance</h2>
+                    <hr>
+                    <a class="nav-link" href="Terror In Resonance.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="The Devil Is A Part-Timer!/Untitled design.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">The Devil Is A Part-Timer!</h2>
+                    <hr>
+                    <a class="nav-link" href="The Devil Is A Part-Timer!.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="The Promised Neverland/PNBanner.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">The Promised Neverland</h2>
+                    <hr>
+                    <a class="nav-link" href="The Promised Neverland.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="Violet Evergarden/VEBanner.png" id="bannerimg" alt="...">
+                <div class="carousel-caption">
+                    <h2 class="">Violet Evergarden</h2>
+                    <hr>
+                    <a class="nav-link" href="Violet Evergarden.html">
+                        <button type="button" class="btn btn-light position-relative">
+                            Watch Now
+                        </button>
+                    </a>
+                </div>
+            </div> -->
+    <!-- </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div> -->
+
+
+    <!-- About Us Page -->
+    <!-- <div class="container-about">
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="2.png" class="img-thumbnail" alt="..." height="500">
+                    <h5 class="text-center">Founder</h5>
+                    <h6 class="text-center">Aayush Chaurasiya</h6>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque repellendus animi
+                            consectetur numquam possimus, quidem similique architecto ad quam assumenda corrupti, sunt,
+                            obcaecati veniam perspiciatis necessitatibus laboriosam nobis qui consequuntur!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda, nobis distinctio
+                            cupiditate esse ut voluptatem maiores itaque sapiente repudiandae necessitatibus. Debitis
+                            vitae veritatis earum minima ducimus voluptatibus ipsum alias.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati asperiores
+                            non, nemo odio quod impedit, vel dolorum architecto exercitationem voluptatem veniam quis ab
+                            velit amet nobis? Maxime, illo quod.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="2.png" class="img-thumbnail" alt="..." height="500">
+                    <h5 class="text-center">Founder</h5>
+                    <h6 class="text-center">Aayush Chaurasiya</h6>
+                </div>
+                <div class="col">
+                    <h5 class="card-title">Card title</h5><br><br>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque repellendus animi
+                        consectetur numquam possimus, quidem similique architecto ad quam assumenda corrupti, sunt,
+                        obcaecati veniam perspiciatis necessitatibus laboriosam nobis qui consequuntur!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda, nobis distinctio
+                        cupiditate esse ut voluptatem maiores itaque sapiente repudiandae necessitatibus. Debitis
+                        vitae veritatis earum minima ducimus voluptatibus ipsum alias.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati asperiores
+                        non, nemo odio quod impedit, vel dolorum architecto exercitationem voluptatem veniam quis ab
+                        velit amet nobis? Maxime, illo quod.
+                    </p>
+    
+                </div>
+            </div>
+        </div>  
+    </section> -->
+
+    <section class="about-us py-5 " style="background-color: rgb(255, 99, 99);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img src="https://via.placeholder.com/500" class="img-fluid rounded" alt="About Us">
+                    <h5 class="text-center">Founder</h5>
+                    <h6 class="text-center">Aayush Chaurasiya</h6>
+                </div>
+                <div class="col-lg-7">
+                    <h2>About Us</h2>
+                    <p class="lead">We are a team of passionate individuals dedicated to providing the best services to our clients.</p>
+                    <p>Our mission is to deliver high-quality products that bring value to our customers. We believe in innovation, collaboration, and excellence.</p>
+                    <p>Join us on our journey to make the world a better place through our innovative solutions and dedicated service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+   <!-- Footer Page -->
+   <footer style="background-color: rgb(126, 0, 0);" class="text-center text-light py-4">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <!-- Logo and Social Links Section -->
+            <div class="col-12 col-md-4 mb-4">
+                <img src="creamandcreumbles.png" alt="Logo" height="80" class="mb-3">
+                <p><strong>"Delivering happiness one meal at a time, <br> because great food deserves to be savored wherever you are."</strong></p>
+                <div>
+                    <a href="https://www.instagram.com/" class="ms-1 ps-1"> 
+                        <i class="bi bi-instagram text-light"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" class="ms-1 ps-1"> 
+                        <i class="bi bi-facebook text-light"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" class="ms-1 ps-1"> 
+                        <i class="bi bi-linkedin text-light"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="col-12 col-md-4 mb-4">
+                <h4 class="fw-bold">Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="icon-link icon-link-hover link-danger link-underline-danger link-underline-opacity-25 text-light"
+                            href="#">
+                            About Us <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-link icon-link-hover link-danger link-underline-danger link-underline-opacity-25 text-light"
+                            href="food.html">
+                            Foods <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-link icon-link-hover link-danger link-underline-danger link-underline-opacity-25 text-light"
+                            href="#">
+                            Contact Us <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Contact Info Section -->
+            <div class="col-12 col-md-4">
+                <h4 class="fw-bold">Contact Info</h4>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-geo-alt text-light me-3"></i>
+                    <a href="https://www.google.com/maps" class="text-light">
+                        Malad West, Mumbai, Maharashtra 400064
+                    </a>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <i class="bi bi-envelope-fill text-light me-3"></i>
+                    <a href="mailto:info@zomato.in" class="text-light">
+                        info@zomato.in
+                    </a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-telephone text-light me-3"></i>
+                    <a href="tel:+919372657054" class="text-light">
+                        +91 9372657054
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    <p class="text-center text-light">Copyright © 2024
+        Cream and Crumbles
+        | Designed & Developed by
+        <a href="#">Vipul Zala</a>
+    </p>
+
+</body>
+
+</html>
